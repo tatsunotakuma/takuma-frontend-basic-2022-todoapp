@@ -13,7 +13,7 @@ export const Title = () => {
 const StyledText = styled.div`
   color: ${COLOR.WHITE};
   ${TEXT.L};
-  font-familiy: ${FONT_FAMILY.NOTO_SANS};
+  font-family: ${FONT_FAMILY.NOTO_SANS};
   @media (max-width: ${BREAKPOINT.MEDIUM}) {
     ${TEXT.M};
   }
