@@ -16,6 +16,14 @@ const StyledButton = styled.button`
   width: 20px;
   height: 20px;
   flex-shrink: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: ${COLOR.LIGHT_GRAY_TRANSPARENT};
+
+  :hover {
+    background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
+  }
 `;
 
 const StyledImage = styled.img`
