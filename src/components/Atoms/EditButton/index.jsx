@@ -13,16 +13,20 @@ export const EditButton = ({ onClick }) => {
 };
 
 const StyledButton = styled.button`
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: ${COLOR.LIGHT_GRAY_TRANSPARENT};
+   {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: ${COLOR.LIGHT_GRAY_TRANSPARENT};
+    transition: background-color 0.3 ease;
 
-  :hover {
-    background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
+    :hover {
+      background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
+    }
   }
 `;
 
