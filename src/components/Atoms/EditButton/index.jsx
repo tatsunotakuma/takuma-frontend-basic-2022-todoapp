@@ -14,6 +14,10 @@ export const EditButton = ({ onClick }) => {
 
 const StyledButton = styled.button`
    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
     width: 20px;
     height: 20px;
     flex-shrink: 0;
