@@ -25,7 +25,7 @@ const StyledButton = styled.button`
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    background-color: ${COLOR.LIGHT_GRAY_TRANSPARENT};
+    background-color: ${COLOR.LIGHT_BLACK};
     transition: background-color 0.3 ease;
 
     :hover {
