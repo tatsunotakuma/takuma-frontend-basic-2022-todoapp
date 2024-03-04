@@ -13,30 +13,25 @@ export const EditButton = ({ onClick }) => {
 };
 
 const StyledButton = styled.button`
-   {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-    padding: 0;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: ${COLOR.LIGHT_BLACK};
-    transition: background-color 0.3 ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: ${COLOR.LIGHT_BLACK};
 
-    :hover {
-      background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
-    }
+  :hover {
+    background-color: ${COLOR.LIGHT_GRAY_TRANSLUCENT};
   }
 `;
 
 const StyledImage = styled.img`
-   {
-    width: 20px;
-    height: 20px;
-  }
+  width: 20px;
+  height: 20px;
 `;
